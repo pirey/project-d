@@ -1,0 +1,126 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #efefef;
+    color: #333;
+}
+
+.wrap {
+    width: 600px;
+    margin: 50px auto;
+    border: 10px solid;
+    border-radius: 18px;
+    background: #fff;
+}
+
+.content {
+    position: relative;
+    padding: 40px;
+}
+
+.title {
+    margin-bottom: 60px;
+}
+
+.title h2 {
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.quote {
+    width: 70%;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.quote-content {
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 40px;
+}
+
+.quote-author {
+    font-size: larger;
+}
+
+.join {
+    margin-bottom: 40px;
+}
+
+.join::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.join-input,
+.join-button {
+    height: 80px;
+    float: left
+}
+
+.join-input {
+    width: 55%;
+}
+
+.join-button {
+    width: 45%;
+}
+
+.join-input input,
+.join-button button {
+    width: 100%;
+    height: 100%;
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+}
+
+.join-button button {
+    background: rgb(49, 159, 142);
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.join-input input {
+    padding: 20px;
+    box-sizing: border-box;
+    background: #eee;
+}
+
+.nope {
+    margin-bottom: 20px;
+}
+
+.nope button {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.dismiss {
+    position: absolute;
+    top: -8px;
+    right: -1px;
+}
+
+.dismiss button {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width: 680px) {
+    .wrap {
+        width: 95%;
+    }
+}
